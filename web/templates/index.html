@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Currency Rate Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+  <div class="container mt-5">
+    <h1 class="text-primary">Welcome to the Currency Rate Website!</h1>
+    
+    <h2 class="text-primary">Currency Rates:</h2>
+    <table class="table table-striped table-bordered">
+      <thead class="thead-dark">
+        <tr>
+          <th>Currency</th>
+          <th>Rate (in USD)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>USD</td>
+          <td>1.00</td>
+        </tr>
+        <tr>
+          <td>EUR</td>
+          <td>0.90</td>
+        </tr>
+        <tr>
+          <td>GBP</td>
+          <td>0.80</td>
+        </tr>
+        <tr>
+          <td>JPY</td>
+          <td>0.009</td>
+        </tr>
+        <tr>
+          <td>AUD</td>
+          <td>0.70</td>
+        </tr>
+        <tr>
+          <td>CAD</td>
+          <td>0.75</td>
+        </tr>
+        <tr>
+          <td>CHF</td>
+          <td>0.92</td>
+        </tr>
+        <tr>
+          <td>CNY</td>
+          <td>0.15</td>
+        </tr>
+        <tr>
+          <td>INR</td>
+          <td>0.014</td>
+        </tr>
+        <tr>
+          <td>AED</td>
+          <td>0.27</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+
+</body>
+</html>

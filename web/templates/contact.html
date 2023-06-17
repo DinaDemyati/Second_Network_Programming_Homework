@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Currency Rate Website - Contact</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+  <div class="container mt-5">
+    <h1 class="text-primary">Contact Currency Rate Website</h1>
+    <p class="lead">You can contact us using the following information:</p>
+    <ul class="lead">
+      <li>Email: contact@currencyrates.com</li>
+      <li>Phone: 922-111-123-321</li>
+    </ul>
+  </div>
+
+
+</body>
+</html>
